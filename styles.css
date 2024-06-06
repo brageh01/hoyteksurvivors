@@ -2,13 +2,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #fff;
+    color: #333;
 }
 
 header {
-    text-align: center;
     background-color: #333;
-    color: white;
-    padding: 1rem;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
 }
 
 header h1 {
@@ -26,36 +28,23 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 
-#main-screen {
-    text-align: center;
-    margin: 2rem;
+main {
+    padding: 2rem;
 }
 
-.screenshot {
-    width: 80%;
-    height: auto;
-}
-
-.button-container {
-    margin-top: 1rem;
-}
-
-.button-container button {
-    margin: 0.5rem;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    cursor: pointer;
+section {
+    margin-bottom: 2rem;
 }
 
 footer {
-    text-align: center;
     background-color: #333;
-    color: white;
-    padding: 1rem;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
     position: fixed;
     width: 100%;
     bottom: 0;
